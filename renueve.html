@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Prueba</title>
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body id="inicio">
+  <!--NAVEGACIÓN-->
+<div class="container">
+  <ul class="nav justify-content-center navegacion">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Acerca</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Servicios y productos</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Renovación matricula mercantil</a>
+        <a class="dropdown-item" href="#">Certificados electrónicos</a>
+        <a class="dropdown-item" href="#">Trabaje con nosotros</a>
+        <a class="dropdown-item" href="#">Consulte su tramite</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Información Relevante</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Asesoría y Acompañamiento</a>
+    </li>
+  </ul>
+</div>
+
+<!--SECCIÓN RENUEVE-->
+<section id="renueve">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 espacio3">
+        <h4 class="rojo text-center">Servicios registrales</h4>
+        <ul class="list-group font-weight-bold">
+          <li class="list-group-item">Registro único empresarial y social (RUES)</li>
+          <li class="list-group-item">Busque aquí el código de su actividad económica</li>
+          <li class="list-group-item">Diligencia el formulario por internet</li>
+          <li class="list-group-item">Formularios para trámites</li>
+          <li class="list-group-item"><a href="#" onclick="link()" id="link_menu">Renueve su matrícula mercantil</a></li>
+          <li class="list-group-item">Realice el pago</li>
+          <li class="list-group-item">Certificados de Registro Mercantil</li>
+          <li class="list-group-item ">Servicios Online</li>
+        </ul>
+      </div>
+      <div class="col-md-7 espacio3">
+        <h1>Renueve su matrícula mercantil</h1>
+        <h4>Registro Único Empresarial y Social (RUES) - Renovación Matrícula Mercantil y ESALES</h4>
+        <p>Esta página está diseñada con el fin de brindar información de interés para usted.
+Pasos para realizar la renovación del Registro Único Empresarial y Social (RUES)</p>
+
+        <ul class="list-group font-weight-bold" id="lista-numeros">
+          <li class="list-group-item"><span>1</span> Digite la clave solicitada para los servicios virtuales de la Cámara de Comercio de Bogotá.</li>
+          <li class="list-group-item"><span>2</span> Acepte los términos y condiciones de uso del servicio.</li>
+          <li class="list-group-item"><span>3</span> Realice la pre liquidación de su trámite. </li>
+          <li class="list-group-item"><span>4</span> Diligencie los formularios correspondientes. </li>
+          <li class="list-group-item"><span>5</span> Verifique y valide su trámite. </li>
+          <li class="list-group-item quitar-borde-inf"><span>6</span> Genere su orden de compra y realice el pago en línea. </li>
+        </ul>
+      </div>
+      <div class="col-md-2 espacio3" id="intereses">
+        <h5 class="rojo font-weight-bold">Te puede interesar</h5>
+        <img src="img/interes.png">
+        <p>Interdum malesuada fames ac ante ipsum faucibus</p>
+        <img src="img/interes2.png">
+        <p>Interdum malesuada fames ac ante ipsum faucibus</p>        
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <img src="img/line.png" class="centrar-icono line">    
+    <h2 class="centrar">Síguenos</h2>
+    <div class="row">
+        <div class="list-group redes">
+          <a href="#" class="list-group-item"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="list-group-item"><i class="fab fa-twitter-square"></i></a>  
+        </div> 
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+  function link() {
+    var element = document.getElementById("link_menu");
+    element.classList.add("seleccionado");
+  }
+</script>
+<style type="text/css">
+  .seleccionado{
+    margin-left: 1.2em;
+    color: #c52033;
+}
+</style>
+</body>
+</html>

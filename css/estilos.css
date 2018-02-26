@@ -1,0 +1,282 @@
+/*****************************ESTILOS INDEX***********************/
+
+
+.navegacion{
+  padding: 1em;
+}
+
+.nav-item a:hover{
+  color: #c52033;
+}
+
+ul li a{
+  color: #000000;
+  font-weight: bold;
+}
+
+.quitar{
+  display: none;
+}
+.centrar{
+  margin: auto;
+  display: block !important;
+}
+
+.margen{
+  margin: 0 !important;
+}
+
+#banner{
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-color: #b7b2b2;
+  background-blend-mode: multiply;
+}
+
+#boton-ver-mas{
+  background-color: #c52033;
+  border: none;
+  border-radius: 2em;
+  border-radius: 2em;
+  font-size: 0.7em;
+  padding: 1em 3em;  
+}
+#boton-ver-mas:hover{
+  background-color: #6d0b16; 
+}
+#boton-ver-video:hover{
+  background-color: rgba(13, 9, 7, 0.58);
+}
+
+#boton-registrese:hover{
+    border-radius: 0.8em;
+}
+
+#boton-ver-video{
+  border-radius: 2em;
+  border-radius: 2em;
+  font-size: 0.7em;
+  padding: 1em 3em;
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fff;
+}
+
+#boton-registrese{
+    margin-top: 125px;
+    padding: 1.2em 2em;
+    background-color: #c52033;
+    border: none;
+    border-radius: 0;
+    -webkit-transition:border-radius 0.5s;
+    -webkit-transition-timing-function:linear;
+    transition: border-radius 0.5s;
+    transition-timing-function:linear;
+}
+
+.btn-success:focus, .btn-success.focus {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+#banner h1{
+  color: #fff;
+  margin-top: 120px;
+}
+
+#banner p{
+  color: #b8b8b8;
+}
+
+#frase{
+  padding: 4em;
+}
+
+.centrar{
+  text-align: center;
+  margin: auto;
+}
+
+.centrar-icono{
+  margin: auto;
+  display: block;
+}
+
+#frase p{
+  color: #000;
+  opacity: 0.6;
+}
+
+#servicios{
+  background-color: #f7f7f7;
+  padding: 4em 0 0 0;
+}
+#servicios a{
+ text-decoration: none;
+ color: #000;
+}
+
+#servicios h2{
+  padding-bottom: 2em;
+  font-weight: bold;
+}
+.margen-cajas{
+  margin: 3em 0;
+  border-right: 1px dashed #d3d3d3;
+}
+
+.quitar-borde{
+  border-right: none;
+}
+
+.espacio{
+  padding: 0 3em;
+}
+
+.espacio2{
+  padding: 1em 0;
+}
+
+.ver-servicios{
+  padding: 2em 0;
+  color: #000;
+  font-weight: bold;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+
+}
+.ver-servicios:hover{
+      color: #6f6f6f;
+      text-decoration: none;
+}
+
+.line{
+  padding: 1em;
+}
+
+#casos{
+  padding: 4em;
+}
+
+#casos h4{
+  padding: 1em 0 0 0;
+  margin: 0;
+  font-size: 1.1em;
+}
+#casos p{
+  padding: 0;
+  margin: 0;
+}
+#casos .font-weight-bold{
+  color: #000;
+  opacity: 0.6;
+}
+
+#casos h2{
+  padding-bottom: 2em;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin: auto;
+}
+
+.redes .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 0.75rem;
+    margin-bottom: -1px;
+    border: none;
+    font-size: 2em;
+    background-color: transparent;
+    color: #fff;
+}
+.redes .list-group-item:hover{
+  opacity: 0.5;
+}
+
+footer{
+  background-color: #2b2626;
+  color: white;
+  padding: 3em;
+}
+@media (max-width: 600px) {
+  .margen-cajas{
+  margin: 3em 0;
+  border-right: none;
+}
+}
+
+
+
+
+/*******************ESTILOS PAGINA RENUEVE***************************/
+  
+
+
+.rojo{
+    color: #c52033;
+}
+#renueve{
+  padding: 4em;
+}
+
+
+#renueve h1{
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 0.4em;
+}
+#renueve h4{
+  padding-top: 0.5em;
+}
+#renueve h5{
+  font-size: 16px;
+}
+#renueve .list-group-item  {
+
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #d3d3d3;
+    font-size: 13px;
+
+}
+#renueve .list-group-item  a{
+  text-decoration: none;
+}
+#renueve .list-group-item  a:hover{
+  opacity: 0.5;
+  color: #000;
+}
+
+#lista-numeros span{
+  background-color: #fec730;
+  padding: 0.5em;
+  border-radius: 100%;
+  padding: 0.2em 0.6em;
+  border-radius: 100%;
+  margin-right: 0.8em;
+}
+
+.quitar-borde-inf{
+  border-bottom: none !important;
+}
+
+#intereses p{
+  font-weight: bold;
+  padding: 0;
+  line-height: 14px;
+  font-size: 12px;
+}
+
+.espacio3{
+  padding: 3em 1em;
+}
